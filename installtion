@@ -23,3 +23,13 @@ sudo apt install python3-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev 
 git --version
 
 download odoo from github
+
+sudo apt-get install postgresql
+
+sudo apt-get install -y npm
+
+sudo ln -s /usr/bin/nodejs/usr/bin/node 
+
+sudo npm install -g less less-plugin-clean-css 
+
+sudo apt-get install -y node-less
