@@ -22,4 +22,4 @@ sudo apt install python3-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev 
 
 git --version
 
-
+download odoo from github
