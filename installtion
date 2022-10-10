@@ -33,3 +33,9 @@ sudo ln -s /usr/bin/nodejs/usr/bin/node
 sudo npm install -g less less-plugin-clean-css 
 
 sudo apt-get install -y node-less
+
+cd /CommunityPath
+
+pip3 install setuptools wheel
+
+pip3 install -r requirements.txt
