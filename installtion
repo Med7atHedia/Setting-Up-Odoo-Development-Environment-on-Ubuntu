@@ -22,4 +22,6 @@ pip install -r requirements.txt (path)
 
 odoo confg file
 
+copy odoo.conf file from debian folder and change details
+
 pycharm confg project
