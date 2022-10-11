@@ -2,40 +2,24 @@ sudo apt-get update
 
 sudo apt-get upgrade
 
-python3 --version
+install pycharm
 
-pip3 --version
-
-sudo apt install python3-pip
-
-pip3 --version
-
-sudo apt install npm
-
-npm -v
-
-node -v
-
-sudo npm install -g rtlcss
-
-sudo apt install python3-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libtiff5-dev libjpeg8-dev libopenjp2-7-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev libharfbuzz-dev libfribidi-dev libxcb1-dev libpq-dev
-
-git --version
+create new project in pycharm
 
 download odoo from github
 
+add odoo in the project
+
 sudo apt-get install postgresql
 
-sudo apt-get install -y npm
+sudo su - postgres
 
-sudo ln -s /usr/bin/nodejs/usr/bin/node 
+createuser --createdb --username postgres --no-createrole --no-superuser --pwprompt odoo16
 
-sudo npm install -g less less-plugin-clean-css 
+open pycharm terminal
 
-sudo apt-get install -y node-less
+pip install -r requirements.txt (path)
 
-cd /CommunityPath
+odoo confg file
 
-pip3 install setuptools wheel
-
-pip3 install -r requirements.txt
+pycharm confg project
