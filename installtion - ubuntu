@@ -1,8 +1,8 @@
-sudo apt-get update
-
-sudo apt-get upgrade
+sudo apt-get update && sudo apt-get upgrade
 
 install pycharm
+
+sudo snap install [pycharm-community] --classic
 
 create new project in pycharm
 
