@@ -2,11 +2,13 @@ sudo apt-get update && sudo apt-get upgrade
 
 sudo apt install python3-pip libldap2-dev libpq-dev libsasl2-dev
 
+sudo apt install python3-virtualenv
+
+virtualenv -p python3 envname
+
 # install pycharm
 
 sudo snap install [pycharm-community] --classic
-
-# create new project in pycharm
 
 # download odoo from github
 
