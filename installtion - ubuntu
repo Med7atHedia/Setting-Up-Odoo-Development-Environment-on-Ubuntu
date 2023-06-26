@@ -1,18 +1,16 @@
 sudo apt-get update && sudo apt-get upgrade
 
-sudo apt install python3-pip libldap2-dev libpq-dev libsasl2-dev
-
-sudo apt install python3-virtualenv
-
-virtualenv -p python3 envname
-
 # install pycharm
 
 sudo snap install [pycharm-community] --classic
 
 # download odoo from github
 
-# add odoo in the project
+# open pycharm
+
+# open odoo folder in pycharm
+
+
 
 sudo apt-get install postgresql
 
