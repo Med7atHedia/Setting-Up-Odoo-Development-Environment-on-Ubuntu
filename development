@@ -1,1 +1,28 @@
-create new module
+# create new module
+
+./odoo-bin scaffold module_name folder_name
+
+# Module structure
+
+  __manifest__.py
+
+  Models
+
+  Views
+
+  Data
+
+  Demo
+
+  i18n
+
+  Security
+
+  Controllers
+
+  Static
+
+  Wizard
+
+  Reports
+
