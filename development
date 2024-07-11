@@ -1,6 +1,6 @@
 # create new module
 
-./odoo-bin scaffold module_name folder_name
+./odoo-bin scaffold module_name folder_name <wher to put it>
 
 # Module structure
 
