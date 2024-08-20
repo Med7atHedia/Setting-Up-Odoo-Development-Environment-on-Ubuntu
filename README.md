@@ -8,26 +8,28 @@
 
 3- download odoo sourse from github
 
-# open pycharm
+    chose the version and dowload ZIP file 
 
-new project
+4- create new project on pycharm
 
-# open odoo folder in pycharm
+    new project
 
+5- copy and past odoo source files in the project
 
+6- install postgresql
 
-sudo apt-get install postgresql
+    sudo apt-get install postgresql
 
-sudo su postgres
+    sudo su postgres
 
-createuser --createdb --username postgres --no-createrole --no-superuser --pwprompt odoo16
+    createuser --createdb --username postgres --no-createrole --no-superuser --pwprompt odoo16
 
-# install requirements
+7- install requirements
 
-pip install -r requirements.txt (path)
+    pip install -r requirements.txt (path)
 
-# odoo confg file
+8- create odoo confg file
 
-# copy odoo.conf file from debian folder and change details
+    copy odoo.conf file from debian folder and change details
 
-# pycharm confg project
+9- create pycharm confg project
