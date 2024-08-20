@@ -32,4 +32,7 @@
 
     copy odoo.conf file from debian folder and change details
 
+    ![image](https://github.com/user-attachments/assets/6c54c653-6ab5-4da5-abfc-5075e97442e2)
+
+
 9- create pycharm confg project
